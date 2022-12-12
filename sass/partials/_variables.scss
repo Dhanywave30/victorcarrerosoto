@@ -1,0 +1,17 @@
+/*me quede en sass 1 1:29 el uso de variables,hacer el seo,preguntar como aplico variables*/
+$color-principal:black;
+$color-secundario:blue;
+$color-horarios:green;
+
+.horarios{
+    color:$color-horarios;
+}
+h2{
+    color:$color-secundario;
+}
+p{
+    color: $color-principal;
+}
+
+
+

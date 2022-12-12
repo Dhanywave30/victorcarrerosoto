@@ -1,0 +1,51 @@
+/*Contacto primera y segunda parte*/
+.contacto{
+    display:flex;
+    justify-content: center;
+    .habiles{
+        display:flex;
+    }
+    .encontrarnos{
+        display:flex;
+        justify-content: auto;
+    }
+    .steel_logo{
+        display:flex;
+        width:70px;
+    }
+    .map{
+        display:flex;
+    }
+    }
+    /*segunda parte*/
+    .consultas{
+        display:flex;
+        justify-content: center;
+        .horarios{
+            display:flex;
+            
+        }
+    }
+    /*tercera parte form*/
+    .label{
+        font-size:20px;
+        .form{
+          
+        }
+    }
+    .escribe{
+        justify-content: center;
+    }
+    .for{
+        width:60%;
+        height:100%;
+    }
+/*footer*/
+.envio{
+    display:flex;
+    justify-content: center;
+    .derechos{
+        display:flex;
+        justify-self: center;
+    }
+}

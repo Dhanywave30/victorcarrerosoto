@@ -1,0 +1,54 @@
+/*Productos*/
+div .sobre {
+    display: flex;
+
+    .steel_logo {
+        display: flex;
+        justify-content: left;
+    }
+
+    .whatsaap_ {
+        display: flex;
+    }
+}
+
+
+/*segunda parte*/
+.all {
+    display:block;
+    width: 100%;;
+    row-gap: 100px;
+
+    h3 {
+        display: flex;
+    }
+
+    .eliptico {
+        display: none;
+    }
+
+    .caminadora {
+        display: none;
+    }
+
+    .estructura {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: auto;
+        overflow-x: hidden;
+    }
+}
+
+/*tercera parte*/
+.envio {
+    display: flex;
+}
+
+.derechos {
+    display: flex;
+}
+/*vista tablet*/
+@media (min-width: 480px) and (max-width: 990px) {
+
+
+}

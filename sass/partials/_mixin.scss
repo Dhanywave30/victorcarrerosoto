@@ -1,0 +1,16 @@
+@mixin size-steel_logo {
+    height:100px;
+    width:200px;
+    
+}
+@mixin size-whatsaap_{
+    height:20px;
+    width:100px;
+}
+.whatsaap_{
+    @include size-whatsaap_();
+}
+
+.steel_logo{
+    @include size-steel_logo();
+}

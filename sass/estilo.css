@@ -1,0 +1,313 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../Image/F.webp);
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/*header*/
+header div .titulo {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+header div .steel_logo {
+  width: 200px;
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+}
+
+header div .whatsaap_ {
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+  width: 60px;
+  position: fixed;
+}
+
+/*navbar*/
+ul {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  list-style: none;
+  font-size: 20px;
+  border: 2px double black;
+  background: rgb(17, 0, 36);
+  background: radial-gradient(circle, rgba(0, 36, 34, 0.1152836134) 2%, rgb(9, 9, 121) 99%, rgba(255, 0, 0, 0.0340511204) 100%);
+  width: 100%;
+}
+
+/*main tercera parte*/
+div .arma {
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+  margin-top: 10px;
+  font-size: 40px;
+  justify-content: center;
+}
+
+div .arma .acces {
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+  justify-content: center;
+  width: 50px;
+}
+
+/* cuarta parte*/
+div h2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+div h2 .secuencia {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  width: 100px;
+}
+
+/*quinta parte*/
+article .todos {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+article .todos .descuento {
+  display: flex;
+  width: 30px;
+}
+
+/*sexta parte*/
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .iconos {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto auto auto;
+}
+
+/*VISTA TABLET*/
+@media (min-width: 480px) and (max-width: 990px) {
+  header div .titulo {
+    display: flex;
+  }
+  .steel_logo {
+    display: grid;
+    grid-column: 1fr;
+    grid-row: auto;
+    width: 50px;
+  }
+  .steel_logo .whatsaap_ {
+    display: flex;
+    position: fixed;
+  }
+}
+/*main tercera parte*/
+div .arma {
+  display: flex;
+  margin-top: 10px;
+  font-size: 40px;
+  justify-content: center;
+}
+
+div .arma .acces {
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+  justify-content: center;
+  width: 100px;
+}
+
+/*VISTA DESKTOP*/
+@media (min-width: 991px) and (max-width: 1200px) {
+  header div .titulo {
+    font-size: 40px;
+    color: rgb(8, 8, 36);
+  }
+  header div .steel_logo {
+    width: 200px;
+    border: 1px double blue;
+  }
+  header div .whatsaap_ {
+    width: 60px;
+    position: fixed;
+  }
+}
+/*navbar*/
+.enlaces {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.enlaces ul {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  list-style: none;
+  font-size: 20px;
+  border: 2px double black;
+  background: rgb(17, 0, 36);
+  background: radial-gradient(circle, rgba(0, 36, 34, 0.1152836134) 2%, rgb(9, 9, 121) 99%, rgba(255, 0, 0, 0.0340511204) 100%);
+  width: 100%;
+}
+
+.todos {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.todos .descuento {
+  display: flex;
+  width: 50px;
+}
+
+/*segunda pagina sobrenosotros primeras parte*/
+div h1 {
+  display: flex;
+  justify-content: center;
+}
+
+div h1 .steel_logo {
+  width: 200px;
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+}
+
+div h1 .whatsaap_ {
+  display: grid;
+  grid-column: 1fr;
+  grid-row: auto;
+  width: 60px;
+  position: fixed;
+}
+
+/*nabvar*/
+/*navbar*/
+ul {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  list-style: none;
+  font-size: 20px;
+  border: 2px double black;
+  background: rgb(17, 0, 36);
+  background: radial-gradient(circle, rgba(0, 36, 34, 0.1152836134) 2%, rgb(9, 9, 121) 99%, rgba(255, 0, 0, 0.0340511204) 100%);
+  width: 100%;
+}
+
+/*segunda parte parte*/
+div .desde {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+}
+
+div .desde .still {
+  display: flex;
+  justify-content: center;
+}
+
+div .desde .still .parrafo {
+  display: flex;
+  justify-self: center;
+  font-size: 13px;
+}
+
+/*tercera parte*/
+div .fondo {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+
+/*cuarta parte*/
+.mision {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.mision .vision {
+  display: flex;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.iconos {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*VISTA TABLET*/
+@media (min-width: 480px) and (max-width: 990px) {
+  div h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 247, 255);
+  }
+  div h1 .steel_logo {
+    width: 250px;
+    display: grid;
+    grid-column: 1fr;
+    grid-row: auto;
+  }
+  /*segunda parte*/
+  .desde {
+    color: rgb(0, 162, 255);
+  }
+  .desde .still {
+    display: flex;
+  }
+  div .fondo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
+  div .fondo .vision {
+    width: 200px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  div .still {
+    display: flex;
+    font-size: 300px;
+  }
+  div .still .fondo {
+    width: 400px;
+  }
+}
+/*pendiente con colocar un tamaño en desktop*/
+/*Productos*/
+section .all {
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=estilo.css.map */
